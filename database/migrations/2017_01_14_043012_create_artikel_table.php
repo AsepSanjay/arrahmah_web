@@ -16,7 +16,7 @@ class CreateArtikelTable extends Migration
         Schema::create('artikel', function (Blueprint $table) {
             $table->increments('id');
             $table->string('judul')->nullable();
-            $table->string('content')->nullable();
+            $table->text('content')->nullable();
             $table->text('foto')->nullable();
             $table->string('tanggal');
             $table->timestamps('tanggal_artikel');

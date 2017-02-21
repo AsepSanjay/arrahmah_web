@@ -25,7 +25,7 @@
               <tr>
                 <th>No.</th>
                 <th>Nama</th>
-                <th>Jenis Kelamin</th>
+                <th>Hak Akses</th>
                 <th>Email</th>
                 <th>No Telp</th>
                 <th>Alat</th>
@@ -35,7 +35,7 @@
               <tr>
                 <th>No.</th>
                 <th>Nama</th>
-                <th>Jenis Kelamin</th>
+                <th>Hak Akses</th>
                 <th>Email</th>
                 <th>No Telp</th>
               </tr>
@@ -45,7 +45,12 @@
               <tr>
                 <td><?php echo $i; $i+=1; ?></td>
                 <td>{{$data->nama}}</td>
-                <td>{{$data->jenis_kelamin}}</td>
+                <td>@if($data->role_id == "1")
+                        Super Admin
+                    @else
+                        Admin
+                    @endif
+                </td>
                 <td>{{$data->email}}</td>
                 <td>{{$data->no_telp}}</td>
                 <td>

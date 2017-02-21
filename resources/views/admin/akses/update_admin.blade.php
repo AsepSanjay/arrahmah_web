@@ -39,6 +39,25 @@
 
               <div class="form-group">
                   <label class="col-lg-12 col-sm-3 control-label">
+                  <h4 class="box-title">Akses</h4>
+                  </label>
+                  <div class="col-lg-12 col-sm-9">
+                    <select class="form-control" id="company" name="role_id" required="">
+                      <option value="" >@if($admin->role_id == "1")
+                                          Super Admin
+                                        @else
+                                          Admin
+                                        @endif 
+                      </option>
+                      <option value="1">Super Admin</option>
+                      <option value="2">Admin</option>
+                      
+                    </select>
+                  </div>
+              </div><br><br><br><br>
+
+              <div class="form-group">
+                  <label class="col-lg-12 col-sm-3 control-label">
                   <h4 class="box-title">Tempat Lahir</h4>
                   </label>
                   <div class=" col-lg-12 col-sm-9">
@@ -93,7 +112,7 @@
                   <h4 class="box-title">Password</h4>
                   </label>
                   <div class=" col-lg-12 col-sm-9">
-                    <input type="password" class="form-control" name="password" value=" " placeholder="Masukkan Password" required="" ">
+                    <input type="password" class="form-control" name="password" value"" placeholder="Masukkan Password" required="" ">
                   </div>
               </div><br><br><br><br>
 

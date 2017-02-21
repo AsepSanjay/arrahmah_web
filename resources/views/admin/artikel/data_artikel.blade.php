@@ -32,7 +32,17 @@
                   <span>3</span> Comments</a>
               </p>
               <h3 class="widget-title">{{$key->judul}}</h3>
-              <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">{!!$key->content!!}</p>
+
+              <?php
+                $string = strip_tags($key->content);
+
+                  if (strlen($string) > 25) {
+
+                  $stringCut = substr($string, 0, 200);
+                  $string = substr($stringCut, 0, strrpos($stringCut, ' ')).'...';
+                                    }
+                  echo $string;
+                              ?>
               <div class="widget-body-footer">
                 <div class="widget-actions pull-left">
                   <a href="{{ $key->id }}/destroy">
