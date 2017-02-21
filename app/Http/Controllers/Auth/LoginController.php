@@ -31,7 +31,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/admin';
+    protected $redirectTo = '/';
 
     /**
      * Create a new controller instance.
@@ -50,7 +50,7 @@ class LoginController extends Controller
         $password = $r->input('password');
         $checkEmail = User::where('email', $email)->first();
         
-        
+        // return bcrypt("ayey332211");
         if (count($checkEmail) == 0) {
             // kalo error
             $r->session()->put('error', 'Email tidak ditemukan!');

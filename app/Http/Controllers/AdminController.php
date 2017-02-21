@@ -62,7 +62,7 @@ class AdminController extends Controller
     	$s->jenis_kelamin = Input::get('jenis_kelamin');
     	$s->alamat = Input::get('alamat');
     	$s->email = Input::get('email');
-    	$s->password = Input::get('password');
+    	$s->password = bcrypt(Input::get('password'));
     	$s->no_telp = Input::get('no_telp');
     	if(Input::file('foto_profile')!=""){
     	$foto = strtoupper(str_slug(strtoupper(Input::get('name'))))."-".date("YmdHis").uniqid().".".Input::file('foto_profile')->getClientOriginalExtension();
