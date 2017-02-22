@@ -36,7 +36,7 @@ class WelcomeController extends Controller
 
     public function welcome_gallery()
     {   
-        $s['gallery'] = \App\gallery::all();
+        $s['gallery'] = \App\gallery::paginate(4);
         return view('welcome_gallery')->with($s);
     } 
 
