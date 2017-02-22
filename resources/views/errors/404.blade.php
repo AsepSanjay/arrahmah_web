@@ -12,24 +12,24 @@
   <link rel="shorcut icon" href="images/arrahmah.ico">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="/css1/bootstrap.min.css">
-  <link rel="stylesheet" href="/css1/bootstrap-extend.min.css">
-  <link rel="stylesheet" href="/css1/site.min.css">
+  <link rel="stylesheet" href="{{url('/css1/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{url('/css1/bootstrap-extend.min.css')}}">
+  <link rel="stylesheet" href="{{url('/css1/site.min.css')}}">
 
-  <link rel="stylesheet" href="/vendor1/animsition/animsition.css">
-  <link rel="stylesheet" href="/vendor1/asscrollable/asScrollable.css">
-  <link rel="stylesheet" href="/vendor1/switchery/switchery.css">
-  <link rel="stylesheet" href="/vendor1/intro-js/introjs.css">
-  <link rel="stylesheet" href="/vendor1/slidepanel/slidePanel.css">
-  <link rel="stylesheet" href="/vendor1/flag-icon-css/flag-icon.css">
+  <link rel="stylesheet" href="{{url('/vendor1/animsition/animsition.css')}}">
+  <link rel="stylesheet" href="{{url('/vendor1/asscrollable/asScrollable.css')}}">
+  <link rel="stylesheet" href="{{url('/vendor1/switchery/switchery.css')}}">
+  <link rel="stylesheet" href="{{url('/vendor1/intro-js/introjs.css')}}">
+  <link rel="stylesheet" href="{{url('/vendor1/slidepanel/slidePanel.css')}}">
+  <link rel="stylesheet" href="{{url('/vendor1/flag-icon-css/flag-icon.css')}}">
 
 
   <!-- Page -->
-  <link rel="stylesheet" href="/css1/pages/errors.css">
+  <link rel="stylesheet" href="{{url('/css1/pages/errors.css')}}">
 
   <!-- Fonts -->
-  <link rel="stylesheet" href="/fonts1/web-icons/web-icons.min.css">
-  <link rel="stylesheet" href="/fonts1/brand-icons/brand-icons.min.css">
+  <link rel="stylesheet" href="{{url('/fonts1/web-icons/web-icons.min.css')}}">
+  <link rel="stylesheet" href="{{url('/fonts1/brand-icons/brand-icons.min.css')}}">
   <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic'>
 
 
@@ -43,8 +43,8 @@
     <![endif]-->
 
   <!-- Scripts -->
-  <script src="/vendor1/modernizr/modernizr.js"></script>
-  <script src="/vendor1/breakpoints/breakpoints.js"></script>
+  <script src="{{url('/vendor1/modernizr/modernizr.js')}}"></script>
+  <script src="{{url('/vendor1/breakpoints/breakpoints.js')}}"></script>
   <script>
     Breakpoints();
   </script>
@@ -71,36 +71,36 @@
 
 
   <!-- Core  -->
-  <script src="/vendor1/jquery/jquery.js"></script>
-  <script src="/vendor1/bootstrap/bootstrap.js"></script>
-  <script src="/vendor1/animsition/jquery.animsition.js"></script>
-  <script src="/vendor1/asscroll/jquery-asScroll.js"></script>
-  <script src="/vendor1/mousewheel/jquery.mousewheel.js"></script>
-  <script src="/vendor1/asscrollable/jquery.asScrollable.all.js"></script>
-  <script src="/vendor1/ashoverscroll/jquery-asHoverScroll.js"></script>
-
+  <script src="{{url('/vendor1/jquery/jquery.js')}}"></script>
+  <script src="{{url('/vendor1/bootstrap/bootstrap.js')}}"></script>
+  <script src="{{url('/vendor1/animsition/jquery.animsition.js')}}"></script>
+  <script src="{{url('/vendor1/asscroll/jquery-asScroll.js')}}"></script>
+  <script src="{{url('/vendor1/mousewheel/jquery.mousewheel.js')}}"></script>
+  <script src="{{url('/vendor1/asscrollable/jquery.asScrollable.all.js')}}"></script>
+  <script src="{{url('/vendor1/ashoverscroll/jquery-asHoverScroll.js')}}"></script>
+')}}
   <!-- Plugins -->
-  <script src="/vendor1/switchery/switchery.min.js"></script>
-  <script src="/vendor1/intro-js/intro.js"></script>
-  <script src="/vendor1/screenfull/screenfull.js"></script>
-  <script src="/vendor1/slidepanel/jquery-slidePanel.js"></script>
+  <script src="{{url('/vendor1/switchery/switchery.min.js')}}"></script>
+  <script src="{{url('/vendor1/intro-js/intro.js')}}"></script>
+  <script src="{{url('/vendor1/screenfull/screenfull.js')}}"></script>
+  <script src="{{url('/vendor1/slidepanel/jquery-slidePanel.js')}}"></script>
 
 
   <!-- Scripts -->
-  <script src="/js1/core.js"></script>
-  <script src="/js1/site.js"></script>
+  <script src="{{url('/js1/core.js')}}"></script>
+  <script src="{{url('/js1/site.js')}}"></script>
 
-  <script src="/js1/sections/menu.js"></script>
-  <script src="/js1/sections/menubar.js"></script>
-  <script src="/js1/sections/sidebar.js"></script>
+  <script src="{{url('/js1/sections/menu.js')}}"></script>
+  <script src="{{url('/js1/sections/menubar.js')}}"></script>
+  <script src="{{url('/js1/sections/sidebar.js')}}"></script>
 
-  <script src="/js1/configs/config-colors.js"></script>
-  <script src="/js1/configs/config-tour.js"></script>
+  <script src="{{url('/js1/configs/config-colors.js')}}"></script>
+  <script src="{{url('/js1/configs/config-tour.js')}}"></script>
 
-  <script src="/js1/components/asscrollable.js"></script>
-  <script src="/js1/components/animsition.js"></script>
-  <script src="/js1/components/slidepanel.js"></script>
-  <script src="/js1/components/switchery.js"></script>
+  <script src="{{url('/js1/components/asscrollable.js')}}"></script>
+  <script src="{{url('/js1/components/animsition.js')}}"></script>
+  <script src="{{url('/js1/components/slidepanel.js')}}"></script>
+  <script src="{{url('/js1/components/switchery.js')}}"></script>
 
 
   <script>
