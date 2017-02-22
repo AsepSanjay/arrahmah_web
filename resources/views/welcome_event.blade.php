@@ -61,7 +61,7 @@
 </div>
     <!-- Hero Area -->
     <div class="hero-area">
-        <div class="page-banner parallax" style="background-image:url('../images/Pattern.jpg');">
+        <div class="page-banner parallax" style="background-image:url('images/Pattern.jpg');">
             <div class="container">
                 <div class="page-banner-text">
                     <h1 class="block-title">Kegiatan</h1>
