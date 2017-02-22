@@ -25,7 +25,7 @@ class AdminTableSeeder extends Seeder
         $root->email = "sanjayaasep77@gmail.com";
         $root->password = bcrypt('ayey332211');
         $root->no_telp = "0896874673278";
-        $root->foto_profile = "1.jpeg";
+        $root->foto_profile = "1.jpg";
         $root->role_id = 1; 
         $root->save();
 
