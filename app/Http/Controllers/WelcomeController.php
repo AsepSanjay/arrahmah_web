@@ -24,6 +24,7 @@ class WelcomeController extends Controller
     public function welcome_artikel_all()
     {
     	$s['artikel_all'] = \App\artikel::paginate(4);
+        $s['artikel_terbaru'] = \App\artikel::orderBy('id','desc')->take(3)->get();
         return view('welcome_blog')->with($s);
     }
 

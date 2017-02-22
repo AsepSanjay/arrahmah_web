@@ -124,7 +124,7 @@
                                 <div id="Trecent" class="tab-pane active">
                                     <div class="widget recent_posts">
                                         <ul>
-                                            @foreach($artikel_all as $key)
+                                            @foreach($artikel_terbaru as $key)
                                             <li>
                                                 <a href="{{route('read_art',$key->id)}}" class="media-box">
                                                     <img src="{{url('file/foto/'.$key->foto)}}" alt="">
