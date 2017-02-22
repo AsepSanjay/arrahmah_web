@@ -122,7 +122,7 @@
             <a class="navbar-avatar dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false"
             data-animation="slide-bottom" role="button">
               <span class="avatar avatar-online">
-                <img src="{{url('file/foto/'.Auth::user()->foto_profile)}}" alt="...">
+                <img src="{{url('file/foto_profile/'.Auth::user()->foto_profile)}}" alt="...">
                 <i></i>
               </span>
             </a>
