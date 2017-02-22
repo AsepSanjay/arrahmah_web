@@ -24,7 +24,7 @@
           <div class="widget widget-shadow">
             <div class="widget-content widget-radius text-center bg-white padding-40">
               <div class="avatar avatar-100 margin-bottom-20">
-                <img src="{{url('file/foto/'.Auth::user()->foto_profile)}}" alt="">
+                <img src="{{url('file/foto/'.Auth::user()->foto_profile)}}" alt="" style="height: 100px; width: 100px; border-radius: 100%;">
               </div>
               <p class="font-size-20 blue-grey-700">{{ Auth::user()->nama }}</p>
               <p class="blue-grey-400 margin-bottom-20">
