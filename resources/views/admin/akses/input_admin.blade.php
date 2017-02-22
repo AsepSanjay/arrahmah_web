@@ -4,7 +4,7 @@
   <div class="page-header" style="margin-bottom: -550px">
         <h1 class="page-title">Input Admin</h1>
         <ol class="breadcrumb">
-          <li><a href="/admin">Beranda</a></li>
+          <li><a href="{{url('/admin')}}">Beranda</a></li>
           <li class="active">Admin</li>
           <li class="active">Input Admin</li>
         </ol>

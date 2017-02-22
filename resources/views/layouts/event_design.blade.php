@@ -181,7 +181,7 @@
           <ul class="site-menu">
             <li class="site-menu-category">General</li>
             <li class="site-menu-item">
-              <a href="/admin" data-slug="dashboard">
+              <a href="{{url('/admin')}}" data-slug="dashboard">
                 <i class="site-menu-icon wb-home" aria-hidden="true"></i>
                 <span class="site-menu-title">Beranda</span>
                 <div class="site-menu-badge">

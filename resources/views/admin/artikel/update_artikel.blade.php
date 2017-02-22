@@ -4,7 +4,7 @@
 <div class="page-header" style="margin-bottom: -520px">
       <h1 class="page-title">Update Artikel</h1>
       <ol class="breadcrumb">
-        <li><a href="/admin">Beranda</a></li>
+        <li><a href="{{url('/admin')}}">Beranda</a></li>
         <li class="active">Artikel</li>
         <li class="active">Update Artikel</li>
       </ol> 

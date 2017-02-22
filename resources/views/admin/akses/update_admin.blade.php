@@ -5,7 +5,7 @@
 <div class="page-header">
       <h1 class="page-title">Edit Admin</h1>
       <ol class="breadcrumb">
-        <li><a href="/admin">Beranda</a></li>
+        <li><a href="{{url('/admin')}}">Beranda</a></li>
         <li class="active">Admin</li>
         <li class="active">Edit Admin</li>
       </ol>

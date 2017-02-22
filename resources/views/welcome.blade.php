@@ -45,22 +45,23 @@
         <header class="site-header">
             <div class="container">
                 <div class="site-logo">
-                    <a href="/" class="default-logo"><img src="{{url('images/arrahmah.ico')}}" alt="Logo"></a>
-                    <a href="/" class="default-retina-logo"><img src="{{url('images/logo%402x.png')}}" alt="Logo" width="199" height="30"></a>
-                    <a href="/" class="sticky-logo"><img src="{{url('images/arrahmah.ico')}}" alt="Logo"></a>
-                    <a href="/" class="sticky-retina-logo"><img src="{{url('images/sticky-logo%402x.png')}}" alt="Logo" width="199" height="30"></a>
+                    <a href="{{url('/')}}" class="default-logo"><img src="{{url('images/arrahmah.ico')}}" alt="Logo"></a>
+                    <a href="{{url('/')}}" class="default-retina-logo"><img src="{{url('images/logo%402x.png')}}" alt="Logo" width="199" height="30"></a>
+                    <a href="{{url('/')}}" class="sticky-logo"><img src="{{url('images/arrahmah.ico')}}" alt="Logo"></a>
+                    <a href="{{url('/')}}" class="sticky-retina-logo"><img src="{{url('images/sticky-logo%402x.png')}}" alt="Logo" width="199" height="30"></a>
                 </div>
                 <a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>
                 <div class="header-info-col"><i class="fa fa-phone"></i> (021) 870-2428</div>
                 <ul class="sf-menu dd-menu pull-right" role="menu">
-                    <li><a href="/">Beranda</a></li>
-                    <li><a href="/artikel">Artikel</a></li>
-                    <li><a href="/kegiatan">Kegiatan</a></li>
-                    <li><a href="/gallery">Galeri</a></li>
+                    <li><a href="{{url('/')}}">Beranda</a></li>
+                    <li><a href="{{url('/artikel')}}">Artikel</a></li>
+                    <li><a href="{{url('/kegiatan')}}">Kegiatan</a></li>
+                    <li><a href="{{url('/gallery')}}">Galeri</a></li>
                 </ul>
             </div>
         </header>
     </div>
+</div>
     <!-- Hero Area -->
     <div class="hero-area">
         <!-- Start Hero Slider -->
@@ -110,15 +111,15 @@
         <!-- End Hero Slider -->
     </div>
     <div class="featured-links row">
-        <a href="/artikel" class="featured-link col-md-4 col-sm-4" >
+        <a href="{{('/artikel')}}" class="featured-link col-md-4 col-sm-4" >
             <span>Lihat Artikel</span>
             <strong>Artikel Terkait</strong>
         </a>
-        <a href="/kegiatan" class="featured-link col-md-4 col-sm-4">
+        <a href="{{('/kegiatan')}}" class="featured-link col-md-4 col-sm-4">
             <span>Lihat Kegiatan</span>
             <strong>Kegiatan</strong>
         </a>
-        <a href="gallery" class="featured-link col-md-4 col-sm-4">
+        <a href="{{('/gallery')}}" class="featured-link col-md-4 col-sm-4">
             <span>Lihat Galeri</span>
             <strong>Galeri</strong>
         </a>

@@ -4,7 +4,7 @@
   <div class="page-header" style="margin-bottom: -550px">
         <h1 class="page-title">Input Gambar</h1>
         <ol class="breadcrumb">
-          <li><a href="/admin">Beranda</a></li>
+          <li><a href="{{url('/admin')}}">Beranda</a></li>
           <li class="active">Galeri</li>
           <li class="active">Input Gambar</li>
         </ol>

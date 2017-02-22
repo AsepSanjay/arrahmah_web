@@ -50,10 +50,10 @@
                 <a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>
                 <div class="header-info-col"><i class="fa fa-phone"></i> 1800-9090-8089</div>
                 <ul class="sf-menu dd-menu pull-right" role="menu">
-                    <li><a href="/">Beranda</a>
+                    <li><a href="{{url('/')}}">Beranda</a>
                            
                     </li>
-                    <li><a href="/artikel">Artikel</a>
+                    <li><a href="{{url('/artikel')}}">Artikel</a>
                         
                     </li>
                     
