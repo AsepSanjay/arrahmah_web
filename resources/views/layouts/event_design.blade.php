@@ -88,7 +88,7 @@
         <i class="icon wb-search" aria-hidden="true"></i>
       </button>
       <div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
-        <img class="navbar-brand-logo" src="/images/arrahmah.png" title="AR">
+        <img class="navbar-brand-logo" src="{{url('/images/arrahmah.png')}}" title="AR">
         <span class="navbar-brand-text"> Ar Rahmah</span>
       </div>
     </div>
