@@ -59,7 +59,7 @@
   <div class="page animsition vertical-align text-center" data-animsition-in="fade-in"
   data-animsition-out="fade-out">
     <div class="page-content vertical-align-middle">
-      <img class="error-mark animation-slide-top" src="/images/404.png" alt="...">
+      <img class="error-mark animation-slide-top" src="{{url('/images/404.png')}}" alt="...">
       <h2>Halaman Tidak Ditemukan !</h2>
       
       <p class="error-advise">NAMPAKNYA ANDA HARUS KEMBALI KE HALAMAN SEBELUMNYA</p>
