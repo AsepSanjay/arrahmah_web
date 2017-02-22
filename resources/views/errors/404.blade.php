@@ -9,7 +9,7 @@
 
   <title>Ar Rahmah | 404</title>
 
-  <link rel="shorcut icon" href="images/arrahmah.ico">
+  <link rel="shorcut icon" href="{{url('images/arrahmah.ico')}}">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{url('/css1/bootstrap.min.css')}}">
