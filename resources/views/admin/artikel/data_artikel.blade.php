@@ -42,7 +42,7 @@
                   $string = substr($stringCut, 0, strrpos($stringCut, ' ')).'...';
                                     }
                   echo $string;
-                              ?>
+              ?>
               <div class="widget-body-footer">
                 <div class="widget-actions pull-left">
                   <a href="{{ $key->id }}/destroy">

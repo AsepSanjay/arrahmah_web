@@ -88,7 +88,17 @@
                                     <h3><a href="{{route('read_art',$key->id)}}">{{$key->judul}}</a></h3>
                                     <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i> Dibuat pada {{date_format(date_create($key->tanggal_kegiatan),"d M Y")}}</span>
                                     <div class="grid-item-excerpt">
-                                        <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">{!!$key->content!!}</p>
+                                        <?php
+                                            $string = strip_tags($key->content);
+
+                                              if (strlen($string) > 25) {
+
+                                              $stringCut = substr($string, 0, 200);
+                                              $string = substr($stringCut, 0, strrpos($stringCut, ' ')).'...';
+                                                }
+                                              echo $string;
+                                          ?>
+
                                     </div>
                                     <a href="{{route('read_art',$key->id)}}" class="basic-link">Baca Selengkapnya</a>
                                 </div>

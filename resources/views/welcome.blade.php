@@ -219,7 +219,17 @@
                                                 <div class="story-slider-cell">
                                                     <blockquote>
                                                         <h3>{{$key->judul}}</h3>
-                                                        <p>{!!$key->content!!}</p>
+                                                        <p><?php
+                                                            $string = strip_tags($key->content);
+
+                                                              if (strlen($string) > 25) {
+
+                                                              $stringCut = substr($string, 0, 400);
+                                                              $string = substr($stringCut, 0, strrpos($stringCut, ' ')).'...';
+                                                                                }
+                                                              echo $string;
+                                                          ?>
+                                                        </p>
                                                     </blockquote>
                                                     <a href="{{route('read_art',$key->id)}}" class="btn btn-success">Baca Selengkapnya</a>
                                                 </div>

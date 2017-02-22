@@ -60,6 +60,7 @@
   data-animsition-out="fade-out">>
     <div class="page-content vertical-align-middle">
       <div class="brand">
+      <a href="/">
         <img class="brand-img" src="{{url('images/arrahmah.ico')}}" alt="..." style="height: 100px;">
         <h2 class="brand-text">Ar Rahmah</h2>
       </div>
