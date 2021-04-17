@@ -18,3 +18,9 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:api');
 
 
+Route::group(['prefix' => 'v1'], function () {
+    Route::get('siswa/list', 'Api\SiswaController@list'); 
+    Route::get('materi/list', 'Api\MateriController@list');   
+    Route::post('auth/register/siswa', 'Api\RegisterController@register');
+});
+ 
