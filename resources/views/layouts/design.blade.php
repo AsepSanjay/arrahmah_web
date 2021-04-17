@@ -7,9 +7,9 @@
   <meta name="description" content="bootstrap admin template">
   <meta name="author" content="">
 
-  <title>Ar Rahmah</title>
+  <title>SALADIN</title>
 
-  <link rel="shorcut icon" href="{{url('images/arrahmah.ico')}}">
+  <link rel="shorcut icon" href="{{url('images/saladin.ico')}}">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{url('/css1/bootstrap.min.css')}}">
@@ -80,8 +80,8 @@
         <i class="icon wb-search" aria-hidden="true"></i>
       </button>
       <div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
-        <img class="navbar-brand-logo" src="{{url('/images/arrahmah.png')}}" title="AR">
-        <span class="navbar-brand-text"> Ar Rahmah</span>
+        <img class="navbar-brand-logo" src="{{url('/images/saladin.png')}}" title="SA">
+        <span class="navbar-brand-text"> SALADIN</span>
       </div>
     </div>
 
@@ -167,20 +167,32 @@
             <li class="site-menu-item has-sub">
               <a href="javascript:void(0)" data-slug="layout">
                 <i class="site-menu-icon wb-layout" aria-hidden="true"></i>
-                <span class="site-menu-title">Artikel</span>
+                <span class="site-menu-title">Materi</span>
                 <span class="site-menu-arrow"></span>
               </a>
               <ul class="site-menu-sub">
                 <li class="site-menu-item">
-                  <a class="animsition-link" href="{{url('admin/artikel/data_artikel')}}" data-slug="layout-grids">
+                  <a class="animsition-link" href="{{url('admin/materi/data_materi')}}" data-slug="layout-grids">
                     <i class="site-menu-icon " aria-hidden="true"></i>
-                    <span class="site-menu-title">Data Artikel</span>
+                    <span class="site-menu-title">Data Materi</span>
                   </a>
                 </li>
                   <li class="site-menu-item">
-                  <a class="animsition-link" href="{{url('admin/artikel/input_artikel')}}" data-slug="layout-grids">
+                  <a class="animsition-link" href="{{url('admin/materi/input_materi')}}" data-slug="layout-grids">
                     <i class="site-menu-icon " aria-hidden="true"></i>
-                    <span class="site-menu-title">Input Artikel</span>
+                    <span class="site-menu-title">Input Materi</span>
+                  </a>
+                </li>
+                <li class="site-menu-item">
+                  <a class="animsition-link" href="{{url('admin/materi/tema_materi')}}" data-slug="layout-grids">
+                    <i class="site-menu-icon " aria-hidden="true"></i>
+                    <span class="site-menu-title">Data Tema Materi</span>
+                  </a>
+                </li>
+                <li class="site-menu-item">
+                  <a class="animsition-link" href="{{url('admin/materi/input_tema_materi')}}" data-slug="layout-grids">
+                    <i class="site-menu-icon " aria-hidden="true"></i>
+                    <span class="site-menu-title">Input Tema Materi</span>
                   </a>
                 </li>
               </ul>
@@ -188,20 +200,20 @@
             <li class="site-menu-item has-sub">
               <a href="javascript:void(0)" data-slug="page">
                 <i class="site-menu-icon wb-file" aria-hidden="true"></i>
-                <span class="site-menu-title">Kegitan</span>
+                <span class="site-menu-title">Kuis</span>
                 <span class="site-menu-arrow"></span>
               </a>
               <ul class="site-menu-sub">
                 <li class="site-menu-item">
-                  <a class="animsition-link" href="{{url('admin/event/data_event')}}" data-slug="page-faq">
+                  <a class="animsition-link" href="{{url('admin/kuis/data_kuis')}}" data-slug="page-faq">
                     <i class="site-menu-icon " aria-hidden="true"></i>
-                    <span class="site-menu-title">Data Kegiatan</span>
+                    <span class="site-menu-title">Data Kuis</span>
                   </a>
                 </li>
                 <li class="site-menu-item">
-                  <a class="animsition-link" href="{{url('admin/event/input_event')}}" data-slug="page-faq">
+                  <a class="animsition-link" href="{{url('admin/kuis/input_kuis')}}" data-slug="page-faq">
                     <i class="site-menu-icon " aria-hidden="true"></i>
-                    <span class="site-menu-title">Tambah Kegiatan</span>
+                    <span class="site-menu-title">Buat Kuis</span>
                   </a>
                 </li>
               </ul>
@@ -209,20 +221,47 @@
             <li class="site-menu-item has-sub">
               <a href="javascript:void(0)" data-slug="page">
                 <i class="site-menu-icon wb-gallery" aria-hidden="true"></i>
-                <span class="site-menu-title">Galeri</span>
+                <span class="site-menu-title">Tantangan</span>
                 <span class="site-menu-arrow"></span>
               </a>
               <ul class="site-menu-sub">
                 <li class="site-menu-item">
-                  <a class="animsition-link" href="{{route('data_gallery')}}" data-slug="page-faq">
+                  <a class="animsition-link" href="{{route('data_tantangan')}}" data-slug="page-faq">
                     <i class="site-menu-icon " aria-hidden="true"></i>
-                    <span class="site-menu-title">Lihat Galeri</span>
+                    <span class="site-menu-title">Penugasan Tantangan</span>
                   </a>
                 </li>
                 <li class="site-menu-item">
-                  <a class="animsition-link" href="{{route('input_gallery')}}" data-slug="page-faq">
+                  <a class="animsition-link" href="{{route('data_tantangan')}}" data-slug="page-faq">
                     <i class="site-menu-icon " aria-hidden="true"></i>
-                    <span class="site-menu-title">Tambah Gambar</span>
+                    <span class="site-menu-title">Daftar Tantangan</span>
+                  </a>
+                </li>
+                <li class="site-menu-item">
+                  <a class="animsition-link" href="{{route('input_tantangan')}}" data-slug="page-faq">
+                    <i class="site-menu-icon " aria-hidden="true"></i>
+                    <span class="site-menu-title">Input Tantangan</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-menu-item has-sub">
+              <a href="javascript:void(0)" data-slug="page">
+                <i class="site-menu-icon wb-user" aria-hidden="true"></i>
+                <span class="site-menu-title">Siswa</span>
+                <span class="site-menu-arrow"></span>
+              </a>
+              <ul class="site-menu-sub">
+                <li class="site-menu-item">
+                  <a class="animsition-link" href="{{route('data_siswa')}}" data-slug="page-faq">
+                    <i class="site-menu-icon " aria-hidden="true"></i>
+                    <span class="site-menu-title">Data Siswa</span>
+                  </a>
+                </li>
+                <li class="site-menu-item">
+                  <a class="animsition-link" href="{{route('input_siswa')}}" data-slug="page-faq">
+                    <i class="site-menu-icon " aria-hidden="true"></i>
+                    <span class="site-menu-title">Tambah Siswa</span>
                   </a>
                 </li>
               </ul>
@@ -266,9 +305,9 @@
 
    <!-- Footer -->
   <footer class="site-footer">
-    <span class="site-footer-legal">© 2015 Remark</span>
+    <span class="site-footer-legal">© 2021 Remark</span>
     <div class="site-footer-right">
-      Crafted with <i class="red-600 wb wb-heart">amazingSurge</a>
+      SALADIN APP
     </div>
   </footer>
 

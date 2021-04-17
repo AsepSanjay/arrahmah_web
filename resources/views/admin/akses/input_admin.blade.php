@@ -1,23 +1,21 @@
 @extends('layouts.design')
 @section('content')
-<div class="page animsition">
-  <div class="page-header" style="margin-bottom: -550px">
-        <h1 class="page-title">Input Admin</h1>
-        <ol class="breadcrumb">
-          <li><a href="{{url('/admin')}}">Beranda</a></li>
-          <li class="active">Admin</li>
-          <li class="active">Input Admin</li>
-        </ol>
-  </div>
-</div>
 <div class="page">
-  <div class="page-content padding-30 container-fluid">
+  <div class="page-header">
+      <h1 class="page-title">Tambah Admin</h1>
+      <ol class="breadcrumb">
+        <li><a href="{{url('/admin')}}">Beranda</a></li>
+        <li class="active">Admin</li>
+        <li class="active">Tambah Admin</li>
+      </ol>
+  </div>
+<div class="page-content padding-30 container-fluid">
     <div class="row" data-plugin="matchHeight" data-by-row="true">
       <div class="col-xlg-6 col-md-12">
           <!-- Panel Predictions -->
         <div class="widget widget-shadow widget-responsive" id="widgetLineareaColor">
           <div class="widget-content widget-radius bg-white">
-            <div class="padding-top-30 padding-30" style="height:calc(100% - 250px);">
+            <div class="padding-top-10 padding-30" >
                 <div class="row">
                   <div class="box">
                   <div class="box-header">

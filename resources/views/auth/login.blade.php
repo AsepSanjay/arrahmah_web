@@ -7,9 +7,9 @@
   <meta name="description" content="bootstrap admin template">
   <meta name="author" content="">
 
-  <title>Ar Rahmah | Login</title>
+  <title>SALADIN | Login</title>
 
-  <link rel="shorcut icon" href="{{url('images/arrahmah.ico')}}">
+  <link rel="shorcut icon" href="{{url('images/saladin.png')}}">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{url('/css1/bootstrap.min.css')}}">
@@ -61,9 +61,10 @@
     <div class="page-content vertical-align-middle">
       <div class="brand">
       <a href="/">
-        <img class="brand-img" src="{{url('images/arrahmah.ico')}}" alt="..." style="height: 100px;">
-        <h2 class="brand-text">Ar Rahmah</h2>
+        <img class="brand-img" src="{{url('images/saladin.png')}}" alt="..." style="height: 100px;">
+        <h2 class="brand-text">SALADIN</h2>
       </div>
+        </a>
       <form class="form-horizontal" role="form" method="POST" action="{{ url('/trylogin') }}">
                         {{ csrf_field() }}
           
