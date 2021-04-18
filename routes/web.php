@@ -55,12 +55,14 @@ Route::post('/save_edited_materi', 'MateriController@update');
 
 //Kuis
 Route::get('/admin/kuis/data_kuis', 'KuisController@data_kuis');
+Route::get('/admin/kuis/data_kuis_khusus', 'KuisController@data_kuis_khusus');
 Route::get('/admin/kuis/input_kuis', 'KuisController@input_kuis');
 Route::get('admin/kuis/{id}/destroy', 'KuisController@delete_kuis');
 Route::get('/admin/kuis/data_kuis/update/{id}',['as'=>'update_kuis', 'uses'=>'KuisController@update_kuis']);
 
+
 Route::post('/save_kuis', 'KuisController@input');
-Route::post('/save_edited_kuis', 'KuisController@update');
+Route::post('/save_edited_kuis','KuisController@update');
 
 //Admin
 Route::get('/admin/data_admin',['as'=>'data_admin','uses'=>'AdminController@data_admin']);
@@ -78,7 +80,7 @@ Route::get('/admin/tantangan/update/{id}',['as'=>'update_tantangan', 'uses'=>'Ta
 Route::get('admin/tantangany/{id}/destroy',['as'=>'delete_tantangan','uses'=>'TantanganController@delete_tantangan']);
 
 Route::post('/save_tantangan', 'TantanganController@input');
-Route::post('/save_edited_tantangan', 'TantanganController@update');
+Route::post('/save_edited_kuis',['as'=>'save_edited_kuis','uses'=>'KuisController@update']);
 
 //Siswa
 Route::get('/admin/data_siswa',['as'=>'data_siswa','uses'=>'SiswaController@data_siswa']);

@@ -21,6 +21,12 @@ class KuisController extends Controller
         return view('admin.kuis.data_kuis')->with($s);
     }  
 
+    public function data_kuis_khusus()
+    {   
+        $s['kuis'] = \App\kuis::all();
+        return view('admin.kuis.data_kuis_khusus')->with($s);
+    }  
+
     public function input_kuis()
     {
         $s['kuis'] = \App\tema_materi::all();
@@ -50,13 +56,13 @@ class KuisController extends Controller
 
     public function update_kuis($id)
     {
-        $s['materi'] = \App\kuis::find($id);
-        $s['materi1'] = \App\materi::all();
+        $s['kuis'] = \App\kuis::find($id);
         return view('admin.kuis.update_kuis')->with($s);
     }
 
-    public function kuis()
+    public function update()
     {   
+        $s = \App\kuis::find(Input::get('id'));
       	$s->tema_kuis = Input::get('tema_kuis');
         $s->soal = Input::get('soal');
         $s->jawaban_a = Input::get('jawaban_a');
